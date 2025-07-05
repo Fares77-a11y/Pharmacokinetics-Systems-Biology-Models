@@ -29,7 +29,9 @@ All simulations were executed in R using base modeling functions and `deSolve`.
 |-------|--------|
 | Pharmacokinetics | ![](results/pharmacokinetics_simulation.png) |
 | Ligand Binding | ![](results/ligand_binding_dynamics.png) |
+|                | ![](results/ligand_binding_equilibrium.png) |
 | Enzyme Kinetics | ![](results/enzyme_kinetics_fit.png) |
+|                 | ![](results/enzyme_kinetics_fit_velocity_concentration.png) |
 | SIRS Simulation | ![](results/SIRS_simulation.png) |
 | SEIRS Simulation | ![](results/SEIRS_simulation.png) |
 
@@ -44,7 +46,9 @@ Systems-Biology-Modeling/
 ├── results/
 │   ├── pharmacokinetics_simulation.png
 │   ├── ligand_binding_dynamics.png
+│   ├── ligand_binding_equilibrium.png
 │   ├── enzyme_kinetics_fit.png
+│   ├── enzyme_kinetics_fit_velocity_concentration.png.png
 │   ├── SIRS_simulation.png
 │   └── SEIRS_simulation.png
 ├── data/
