@@ -1,0 +1,23 @@
+Section,Parameter,Value,Unit,Notes
+Pharmacokinetics,Dose,1000.0,mg,Oral dose
+Pharmacokinetics,Half_life,5.0,h,Elimination half-life
+Pharmacokinetics,Absorption_rate,0.9,1/h,Rate from gut to blood
+Pharmacokinetics,Initial_Gut,1000.0,mg,At t=0
+Pharmacokinetics,Initial_Blood,0.0,mg,At t=0
+Ligand_Binding,kon,0.6,µM⁻¹·s⁻¹,Association rate
+Ligand_Binding,koff,0.01,s⁻¹,Dissociation rate
+Ligand_Binding,Kd,0.0167,µM,Dissociation constant
+Ligand_Binding,Ligand_Conc,2.0,µM,Input ligand concentration
+Ligand_Binding,Total_Receptors,2000.0,receptors,Initial receptor count
+Ligand_Binding,Bound@3s,1930.0,receptors,Simulated at t=3s
+Enzyme_Kinetics,Vmax,0.00317,mM/s,Fitted
+Enzyme_Kinetics,Km,0.48868,mM,Fitted
+Enzyme_Kinetics,kcat,9.33,1/s,From Vmax/LDH
+Enzyme_Kinetics,NADH_Abs_Slope,5.06063,-,Linear regression
+Epidemiology_SIRS,Beta,0.4,-,Transmission rate
+Epidemiology_SIRS,Gamma,0.2,-,Recovery rate
+Epidemiology_SIRS,Delta,0.005,-,Immunity loss rate
+Epidemiology_SEIRS,Beta,0.5,-,Transmission rate
+Epidemiology_SEIRS,Gamma,0.1,-,Recovery rate
+Epidemiology_SEIRS,Omega,0.1,-,Incubation progression
+Epidemiology_SEIRS,Delta,0.03,-,Immunity loss
